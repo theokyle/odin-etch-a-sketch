@@ -1,10 +1,30 @@
-.row {
+.header{
     display: flex;
     justify-content: center;
+    margin: 20px;
+}
+
+.container {
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
 }
 
 .box{
-    height: 100px;
-    width: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    min-width: 0;
+    flex: 1;
+}
+
+.fill{
     background-color: black;
 }
